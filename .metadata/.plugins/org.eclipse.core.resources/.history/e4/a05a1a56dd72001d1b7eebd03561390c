@@ -30,12 +30,13 @@ public class App {
         
         System.out.println("Enter year");
         int year=scanner.nextInt();
-        scanner.nextLine();
+        System.out.println("\n");  
+        
         LocalDate dob=LocalDate.of(year, month, day);
         System.out.println("DOB="+dob.toString());
         System.out.println("Enter Name");
         String name=scanner.nextLine();
-        System.out.println("Name="+name);
+        System.out.prinltn("Name="+name);
      
         
 	}
