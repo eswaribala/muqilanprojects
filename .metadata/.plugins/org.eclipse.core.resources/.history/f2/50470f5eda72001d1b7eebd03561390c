@@ -11,14 +11,10 @@ public class App {
 		Scanner scanner=new Scanner(System.in);
 		// TODO Auto-generated method stub
 		//display message to enter id
-        System.out.println("Enter Account No");
+        System.out.println("Enter Customer Id");
         //variables
-         long accountNo=scanner.nextLong();
-        System.out.println("The given AccountNo="+accountNo);
-        
-        System.out.println("Enter Customer DOB");
-        
-        
+      long accountNo=scanner.nextLong();
+      System.out.println("The given AccountNo="+accountNo);
      
         
 	}
