@@ -33,7 +33,7 @@ public class App {
         System.out.println("\n");  
         
         LocalDate dob=LocalDate.of(year, month, day);
-        System.out.println("DOB="+dob.toString());
+        System.out.prinltn("DOB="+dob.toString());
         
         
      

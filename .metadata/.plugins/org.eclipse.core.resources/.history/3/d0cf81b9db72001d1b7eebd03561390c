@@ -1,6 +1,5 @@
 package com.hsbc.bankapp.utility;
 
-import java.time.LocalDate;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -31,9 +30,6 @@ public class App {
         System.out.println("Enter year");
         short year=scanner.nextByte();
         System.out.println("\n");  
-        
-        LocalDate dob=LocalDate.of(year, month, day);
-        System.out.println("DOB="+dob.toString());
         
         
      
