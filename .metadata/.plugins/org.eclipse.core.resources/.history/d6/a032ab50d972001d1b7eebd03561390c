@@ -16,7 +16,7 @@ public class App {
       System.out.println("The given Customer Id="+customerId);
       System.out.println("Generating Random Numbers.....");
        for(int i=0;i<10;i++) { 
-        System.out.println("The Generated Customer Id="+new Random().nextInt(1000));
+        System.out.println("The given Customer Id="+new Random().nextInt(1000));
        }
         
 	}
